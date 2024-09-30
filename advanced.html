@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/advanced.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="./index.html">Google</a></li>
+            <li><a href="./images.html">Imágenes</a></li>
+        </ul>
+    </header>
+    <div class="advanced">
+        <h2 class="advanced_title">Búsqueda avanzada</h2>
+    </div>
+    <hr>
+    <main>
+        <div class="container">
+            <form action="https://www.google.com/search" method="GET">
+                <div class="left">
+                    <label>Mostrar páginas que contengan...</label>
+                    <div class="form">
+                        <label>Todas estas palabras:</label>
+                        <input type="text" name="as_q" class="advanced_input" placeholder="Ingresa las palabras importantes.">
+                    </div>
+    
+                    <div class="form">
+                        <label>Esta palabra o frases exactas:</label>
+                        <input type="text" name="as_epq" class="advanced_input" placeholder="Ingresa las palabras exactas entre comillas.">
+                    </div>
+    
+                    <div class="form">
+                        <label>Cualquiera de estas palabras:</label>
+                        <input type="text" name="as_oq" class="advanced_input" placeholder="Ingresa OR entre las palabras que desees.">
+                    </div>
+    
+                    <div class="form">
+                        <label>Ninguna de estas palabras</label>
+                        <input type="text" name="as_eq" class="advanced_input" placeholder='Ingresa un signo menos justo delante de las palabras que no deseas que aparezcan.'>
+                    </div>
+    
+                    <div class="submit_advanced">
+                        <input type="submit" value="Búsqueda avanzada" class="busqueda-avanzada">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
