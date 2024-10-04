@@ -62,4 +62,4 @@ Este proyecto consiste en crear una interfaz que simule la Búsqueda de Google, 
 - Usa la herramienta de inspección de redes en el navegador para ver las solicitudes y respuestas del servidor.
 - Juega con diferentes tipos de campos y nombres de parámetros en los formularios HTML para ver su comportamiento.
 
-## Elaborado por: Claudia Sofía Vargas Ayernis.
+## Elaborado por: Claudia Sofía Vargas Ayerdis.
